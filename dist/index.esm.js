@@ -2853,8 +2853,9 @@ var baseColors = {
     success: "#5FDDB6",
     warning: "#D199AE",
 };
-var brandColors = {
-    binance: "#F0B90B",
+var additionalColors = {
+    binance: "#638E91",
+    overlay: "#123D41",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#F4F4F9", backgroundDisabled: "#E8E9EB", backgroundAlt: "#FFFFFF", cardBorder: "#F4F4F9", contrast: "#191325", dropdown: "#F4F4F9", dropdownDeep: "#E2E6ED", invertedContrast: "#FFFFFF", input: "#DFEFEF", inputSecondary: "#DFEFEE", tertiary: "#BDC2C4", text: "#19213A", textDisabled: "#BDC2C4", textSubtle: "#3e8e21", disabled: "#E9EAEB", gradients: {
     bubblegum: "linear-gradient(139.73deg, #3e8e21 0%, #DFE7F2 100%)",
