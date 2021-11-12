@@ -2474,7 +2474,7 @@ var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_
 var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
-        // React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement(PanelBody, __assign({}, props)),
         // React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
         //     React__default['default'].createElement("img", { src: "/images/kyc.png" })),
         React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/undead-finance/" },
@@ -2858,36 +2858,23 @@ var ResetCSS = styled.createGlobalStyle(templateObject_1$K || (templateObject_1$
 var templateObject_1$K;
 
 var baseColors = {
-    failure: "#DD5252",
+    failure: "#ED4B9E",
     primary: "#03383F",
     primaryBright: "#03383F",
     primaryDark: "#1c6e70",
-    secondary: "#273C47",
-    success: "#5FDDB6",
-    warning: "#D199AE",
+    secondary: "#44515e",
+    success: "#31D0AA",
+    warning: "#FFB237",
 };
-var additionalColors = {
+var brandColors = {
     binance: "#638E91",
-    overlay: "#123D41",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#F4F4F9", backgroundDisabled: "#E8E9EB", backgroundAlt: "#FFFFFF", cardBorder: "#F4F4F9", contrast: "#191325", dropdown: "#F4F4F9", dropdownDeep: "#E2E6ED", invertedContrast: "#FFFFFF", input: "#DFEFEF", inputSecondary: "#DFEFEE", tertiary: "#BDC2C4", text: "#19213A", textDisabled: "#BDC2C4", textSubtle: "#3e8e21", disabled: "#E9EAEB", gradients: {
-    bubblegum: "linear-gradient(139.73deg, #3e8e21 0%, #DFE7F2 100%)",
-    inverseBubblegum: "linear-gradient(139.73deg, #DFE7F2 0%, #3e8e21 100%)",
-    cardHeader: "linear-gradient(111.68deg, #F4F4F9 0%, #E2E6ED 100%)",
-    blue: "linear-gradient(180deg, #AAE5BD 0%, #C3E0DF 100%)",
-    violet: "linear-gradient(180deg, #AAE5BD 0%, #C3E0DF 100%)",
-    violetAlt: "linear-gradient(180deg, #AAE5BD 0%, #C3E0DF 100%)",
-    gold: "linear-gradient(180deg, #5FDDB6 0%, #0F3E41 100%)",
-} });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#6cbf43", background: "#1e2d33", backgroundDisabled: "#101D21", backgroundAlt: "#10191e", cardBorder: "#11242D", contrast: "#14162D", dropdown: "#1B1E1E", dropdownDeep: "#0C1110", invertedContrast: "#122023", input: "#304249", inputSecondary: "#22494F", primaryDark: "#e3e1e1", tertiary: "#353547", text: "#E1F3F4", textDisabled: "#BDC2C4", textSubtle: "#8cc96e", disabled: "#4A5160", gradients: {
-    bubblegum: "linear-gradient(139.73deg, #315359 0%, #262E33 100%)",
-    inverseBubblegum: "linear-gradient(139.73deg, #262E33 0%, #315359 100%)",
-    cardHeader: "linear-gradient(166.77deg, #31475B 0%, #303F44 100%)",
-    blue: "linear-gradient(180deg, #31475B 0%, #49565E 100%)",
-    violet: "linear-gradient(180deg, #31475B 0%, #49565E 100%)",
-    violetAlt: "linear-gradient(180deg, #31475B 0%, #49565E 100%)",
-    gold: "linear-gradient(180deg, #5FDDB6 0%, #0F3E41 100%)",
-} });
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191325", invertedContrast: "#FFFFFF", input: "#DFEFEF", tertiary: "#BDC2C4", text: "#19213A", textDisabled: "#BDC2C4", textSubtle: "#3e8e21", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+    } });
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#6cbf43", background: "#1e2d33", backgroundDisabled: "#101D21", contrast: "#14162D", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#E1F3F4", textDisabled: "#BDC2C4", textSubtle: "#8cc96e", borderColor: "#4b6361", card: "#262b2c", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+    } });
 
 var light = {
     background: lightColors.card,
