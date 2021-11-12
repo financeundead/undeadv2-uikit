@@ -2846,20 +2846,20 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#303036",
-    primaryBright: "#343135",
-    primaryDark: "#F9F9F9",
+    primary: "#03383F",
+    primaryBright: "#03383F",
+    primaryDark: "#1c6e70",
     secondary: "#44515e",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
-    binance: "#F0B90B",
+    binance: "#638E91",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#eff2f5", text: "#262626", textDisabled: "#BDC2C4", textSubtle: "#809fba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191325", invertedContrast: "#FFFFFF", input: "#DFEFEF", tertiary: "#BDC2C4", text: "#19213A", textDisabled: "#BDC2C4", textSubtle: "#3e8e21", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#e2fafc", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#6cbf43", background: "#1e2d33", backgroundDisabled: "#101D21", contrast: "#14162D", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#E1F3F4", textDisabled: "#BDC2C4", textSubtle: "#8cc96e", borderColor: "#4b6361", card: "#262b2c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
