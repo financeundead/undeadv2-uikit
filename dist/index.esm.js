@@ -2464,7 +2464,7 @@ var Panel = function (props) {
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
             React.createElement("img", { src: "/images/kyc.png" })),
-        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/undead-finance/" },
             React.createElement("img", { src: "/images/rugdoc-dark.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };

@@ -2477,7 +2477,7 @@ var Panel = function (props) {
         React__default['default'].createElement(PanelBody, __assign({}, props)),
         React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
             React__default['default'].createElement("img", { src: "/images/kyc.png" })),
-        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/undead-finance/" },
             React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
