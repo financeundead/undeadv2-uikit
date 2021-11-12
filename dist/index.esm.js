@@ -2457,13 +2457,13 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
 var RugDoc = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+// var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
 var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
-            React.createElement("img", { src: "/images/kyc.png" })),
+        // React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
+        //     React.createElement("img", { src: "/images/kyc.png" })),
         React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/undead-finance/" },
             React.createElement("img", { src: "/images/rugdoc-dark.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
