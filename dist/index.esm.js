@@ -2227,7 +2227,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/polyvertex",
+                href: "https://t.me/theundeadfinance",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2253,14 +2253,14 @@ var socials = [
             //   label: "Türkiye",
             //   href: "",
             // },
-            {
-                label: "Español",
-                href: "https://t.me/polyvertex_spanish",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/polyvertex_portugues",
-            },
+            // {
+            //     label: "Español",
+            //     href: "https://t.me/polyvertex_spanish",
+            // },
+            // {
+            //     label: "Português",
+            //     href: "https://t.me/polyvertex_portugues",
+            // },
             // {
             //   label: "日本語",
             //   href: "",
@@ -2269,22 +2269,22 @@ var socials = [
             //   label: "Français",
             //   href: "",
             // },
-            {
-                label: "Announcements",
-                href: "https://t.me/polyvertex_announcements",
-            },
+            // {
+            //     label: "Announcements",
+            //     href: "https://t.me/polyvertex_announcements",
+            // },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FarmVertex",
+        href: "https://twitter.com/FinanceUndead",
     },
-    {
-        label: "Reddit",
-        icon: "RedditIcon",
-        href: "https://www.reddit.com/r/PolyVertex/",
-    },
+    // {
+    //     label: "Reddit",
+    //     icon: "RedditIcon",
+    //     href: "https://www.reddit.com/r/PolyVertex/",
+    // },
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
@@ -2618,7 +2618,7 @@ var AccountModal = function (_a) {
     return (React.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React.createElement(Flex, { mb: "32px" },
-            React.createElement(LinkExternal, { small: true, href: "https://PolygonScan.com/address/" + account, mr: "16px" }, "View on PolygonScan"),
+            React.createElement(LinkExternal, { small: true, href: "https://FtmScan.com/address/" + account, mr: "16px" }, "View on FtmScan"),
             React.createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React.createElement(Flex, { justifyContent: "center" },
             React.createElement(Button, { size: "sm", variant: "danger", onClick: function () {

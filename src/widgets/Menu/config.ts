@@ -120,7 +120,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/polyvertex",
+        href: "https://t.me/theundeadfinance",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -175,7 +175,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FarmVertex",
+    href: "https://twitter.com/FinanceUndead",
   },
   {
     label: "Reddit",
